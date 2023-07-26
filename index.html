@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
     body {
-      background-color: pink;
+      background-color: blue;
     }
     /* Set a fixed width and height for the images */
     .w3-col img {
@@ -16,23 +16,23 @@
 </head>
 <body>
   <div class="w3-container w3-center">
-    <h2>Pro pokračování přiřaď k obrázkům jména z výběru: křemílek, rumcajs, rákosníček, racochejl.</h2>
+    <h2>Na obrázcích níže vidíte 4 dětské fotografie. Jsou to fotografie vašich kolegů, kteří by vás rádi pozvali na oslavu narozenin. Po úspěšném vložení jejich křestních jmen (Lenka, Jitka, Petr, Tomáš) k jednotlivým fotografiím a posléze stisknutí tlačítka HOTOVO se vám zobrazí pozvánka. Máte neomezený počet pokusů. Tak hodně štěstí😊.</h2>
     <div class="w3-row">
       <div class="w3-col s3">
-        <img src="rakosnicek.jpg" alt="Image 1">
-        <input type="text" id="nameInput1" placeholder="Enter name">
+        <img src="Jitka 1.jpg" alt="Image 1">
+        <input type="text" id="nameInput1" placeholder="">
       </div>
       <div class="w3-col s3">
-        <img src="rumcajs.jpg" alt="Image 2">
-        <input type="text" id="nameInput2" placeholder="Enter name">
+        <img src="Petr 1.jpg" alt="Image 2">
+        <input type="text" id="nameInput2" placeholder="">
       </div>
       <div class="w3-col s3">
-        <img src="kremilek.jpg" alt="Image 3">
-        <input type="text" id="nameInput3" placeholder="Enter name">
+        <img src="Tomík 3.jpg" alt="Image 3">
+        <input type="text" id="nameInput3" placeholder="">
       </div>
       <div class="w3-col s3">
-        <img src="racochejl.jpg" alt="Image 4">
-        <input type="text" id="nameInput4" placeholder="Enter name">
+        <img src="Lenka 1.jpg" alt="Image 4">
+        <input type="text" id="nameInput4" placeholder="">
       </div>
     </div>
     <button class="w3-btn w3-blue" onclick="checkAnswers()">Hotovo</button>
@@ -40,7 +40,7 @@
 
   <script>
     function checkAnswers() {
-      const correctNames = ["rákosníček", "rumcajs", "křemílek", "racochejl"];
+      const correctNames = ["jitka", "petr", "tomáš","lenka"];
       const inputs = document.querySelectorAll("input[type='text']");
       let allCorrect = true;
 
